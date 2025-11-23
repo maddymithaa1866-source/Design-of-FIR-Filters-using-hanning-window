@@ -11,6 +11,7 @@
   PC Installed with SCILAB 
 
 # PROGRAM 
+
 clc;
 clear;
 close;
@@ -40,9 +41,7 @@ hzm_dB = 20 * log10(hzm);
 plot(2*fr, hzm_dB);
 xlabel("Normalized Digital Frequency (×π rad/sample)");
 ylabel("Magnitude (dB)");
-title("Frequency Response of FIR LPF using Hanning Window (in dB)");
-
-
+title("Frequency Response of FIR LPF using Hanning Window (in dB)");
 # OUTPUT
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/a1d57de7-e730-45af-85f5-96946a7893e1" />
 
